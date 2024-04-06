@@ -14,10 +14,10 @@ def equal():
         text= str(eval(text))
         Text.set(text)
     except ZeroDivisionError:
-        text= ' brain dead'
+        text= ' IMPOSSIBLE'
         Text.set(text)
     except SyntaxError:
-        Text.set("AIn't Working")
+        Text.set("NO Working")
 window= Tk()
 window.title('Calculartor')
 image= PhotoImage(file='img_1.png')
